@@ -1,0 +1,29 @@
+uuid: 6007f961-d57b-4b2b-8a6b-1220e0ce3265
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_conntry
+    - node.type.places
+    - taxonomy.vocabulary.sountry
+id: node.places.field_conntry
+field_name: field_conntry
+entity_type: node
+bundle: places
+label: conntry
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      sountry: sountry
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

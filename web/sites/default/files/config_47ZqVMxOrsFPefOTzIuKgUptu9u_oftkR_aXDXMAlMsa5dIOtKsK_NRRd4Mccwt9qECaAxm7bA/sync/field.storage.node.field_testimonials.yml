@@ -1,0 +1,20 @@
+uuid: d640be76-d641-4978-b936-f1224eff3970
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - node
+id: node.field_testimonials
+field_name: field_testimonials
+entity_type: node
+type: comment
+settings:
+  comment_type: comment
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

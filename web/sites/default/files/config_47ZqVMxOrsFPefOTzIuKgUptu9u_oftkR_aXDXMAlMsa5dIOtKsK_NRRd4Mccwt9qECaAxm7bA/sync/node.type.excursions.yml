@@ -1,0 +1,18 @@
+uuid: cb916689-37a2-4bb8-bb25-2593ee05d5d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Excursions
+type: excursions
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

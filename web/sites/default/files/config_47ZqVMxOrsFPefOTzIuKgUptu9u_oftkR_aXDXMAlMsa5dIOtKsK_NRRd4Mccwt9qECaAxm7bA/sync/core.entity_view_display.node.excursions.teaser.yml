@@ -1,0 +1,32 @@
+uuid: b0c0f91f-46f7-4ad1-a921-996ad09b0ff1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.excursions.body
+    - field.field.node.excursions.field_image_ex
+    - node.type.excursions
+  module:
+    - text
+    - user
+id: node.excursions.teaser
+targetEntityType: node
+bundle: excursions
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_image_ex: true
