@@ -1,0 +1,18 @@
+uuid: bd2a85f3-0489-4f62-8c19-1ff1573a9301
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_eto_ryadom_s_otelem_
+field_name: field_eto_ryadom_s_otelem_
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

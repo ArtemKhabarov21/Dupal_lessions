@@ -1,0 +1,23 @@
+uuid: 4951bc80-f497-4e46-9dc6-a2d9b04c5f01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eto_ryadom_s_otelem_
+    - node.type.places
+id: node.places.field_eto_ryadom_s_otelem_
+field_name: field_eto_ryadom_s_otelem_
+entity_type: node
+bundle: places
+label: 'Is it near to the hotel?'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,23 @@
+uuid: 644b8f5d-3d2c-4f85-b4e3-880d1707ad97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.excursions
+  module:
+    - text
+id: node.excursions.body
+field_name: body
+entity_type: node
+bundle: excursions
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

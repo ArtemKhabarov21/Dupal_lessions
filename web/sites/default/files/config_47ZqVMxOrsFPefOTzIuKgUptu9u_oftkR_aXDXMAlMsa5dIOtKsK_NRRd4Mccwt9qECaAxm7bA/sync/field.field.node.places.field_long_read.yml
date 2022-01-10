@@ -1,0 +1,21 @@
+uuid: 52e3a204-0802-4dfb-b318-07512c8bf513
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_long_read
+    - node.type.places
+  module:
+    - text
+id: node.places.field_long_read
+field_name: field_long_read
+entity_type: node
+bundle: places
+label: 'Long read'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
