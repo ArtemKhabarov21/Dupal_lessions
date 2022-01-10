@@ -7,6 +7,7 @@
 /sites/*/*services*.yml
 /web/core/*
 .idea/*
+/web/update.php
 
 # Ignore paths that may contain user-generated content
 /sites/*/files
@@ -40,8 +41,6 @@
 /.gitattributes
 /.htaccess
 /autoload.php
-/composer.json
-/composer.lock
 /example.gitignore
 /index.php
 /LICENSE.txt
