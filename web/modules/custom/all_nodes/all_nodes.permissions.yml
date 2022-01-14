@@ -1,0 +1,4 @@
+administer all_nodes configuration:
+  title: 'Administer all_nodes configuration'
+  description: 'Optional description.'
+  restrict access: true

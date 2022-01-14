@@ -1,0 +1,6 @@
+services:
+  all_nodes.event_subscriber:
+    class: Drupal\all_nodes\EventSubscriber\AllNodesSubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }

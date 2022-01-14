@@ -1,0 +1,15 @@
+all_nodes.example:
+  path: '/all-nodes/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\all_nodes\Controller\AllNodesController::build'
+  requirements:
+    _permission: 'access content'
+
+all_nodes.settings_form:
+  path: '/admin/config/system/all-nodes'
+  defaults:
+    _title: 'All nodes settings'
+    _form: 'Drupal\all_nodes\Form\SettingsForm'
+  requirements:
+    _permission: 'administer all_nodes configuration'

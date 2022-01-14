@@ -706,8 +706,7 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  */
 
 $settings['trusted_host_patterns'] = [
-  '^nix-drupal.com$',
-  '127\.0\.0\.1',
+  '^artem.backend-education.hulk.nixdev.co$'
 ];
 
 /**
@@ -775,9 +774,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'drupal_lessions',
-  'username' => 'admin_drupal',
-  'password' => 'admin_drupal',
+  'database' => 'artem_drupal',
+  'username' => 'artem_admin',
+  'password' => '12345',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',

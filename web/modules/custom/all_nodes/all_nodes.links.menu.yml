@@ -1,0 +1,6 @@
+all_nodes.settings_form:
+  title: All nodes
+  description: Configure All nodes.
+  parent: system.admin_config_system
+  route_name: all_nodes.settings_form
+  weight: 10

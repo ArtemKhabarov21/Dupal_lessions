@@ -1,0 +1,13 @@
+my_test_module.settings_form:
+  title: My test module
+  description: Configure My test module.
+  parent: system.admin_config_system
+  route_name: my_test_module.settings_form
+  weight: 10
+
+my_test_module.settings_form:
+  title: My test module
+  description: Configure My test module.
+  parent: system.admin_config_system
+  route_name: my_test_module.settings_form
+  weight: 10
